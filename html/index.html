@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Onepager-Website für eine fiktive Webdesign-Agentur.">
+    <title>AGENTUR_NAME – Webdesign Agentur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+    <div class="container topbar__content">
+        <div class="logo" aria-label="AGENTUR_NAME">AGENTUR_NAME</div>
+        <nav class="nav" aria-label="Hauptnavigation">
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">Menü</button>
+            <ul id="nav-menu" class="nav__list">
+                <li><a href="#hero">Start</a></li>
+                <li><a href="#services">Leistungen</a></li>
+                <li><a href="#portfolio">Referenzen</a></li>
+                <li><a href="#process">Ablauf</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn--ghost" href="#contact">Projekt anfragen</a>
+    </div>
+</header>
+
+<main>
+    <section id="hero" class="hero">
+        <div class="container hero__grid">
+            <div>
+                <p class="eyebrow">Webdesign-Agentur aus STADT_NAME</p>
+                <h1>Websites, die Vertrauen schaffen und Leads generieren.</h1>
+                <p class="lede">Wir gestalten performante Onepager, Landingpages und komplette Webauftritte, die Ihre Marke sichtbar machen und messbare Ergebnisse liefern.</p>
+                <div class="hero__actions">
+                    <a class="btn" href="#contact">Kostenloses Erstgespräch</a>
+                    <a class="btn btn--ghost" href="#services">Mehr erfahren</a>
+                </div>
+                <div class="hero__meta">
+                    <span>⚡ Launch in Wochen, nicht Monaten</span>
+                    <span>🔒 DSGVO-konforme Umsetzung</span>
+                    <span>📈 Fokus auf Conversions</span>
+                </div>
+            </div>
+            <div class="hero__card" aria-hidden="true">
+                <div class="hero__card-header">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="hero__card-body">
+                    <p class="stat">+38% längere Verweildauer</p>
+                    <p class="stat">+24% mehr Anfragen</p>
+                    <p class="caption">Durch klare Nutzerführung und prägnante Inhalte.</p>
+                    <div class="pill">Case: KUNDEN_NAME</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section__header">
+                <p class="eyebrow">Leistungen</p>
+                <h2>Alles, was für einen überzeugenden Auftritt nötig ist.</h2>
+                <p class="lede">Wir kombinieren Strategie, Design und Technik zu einem klaren, konversionsstarken Onepager – flexibel erweiterbar, wenn Ihr Angebot wächst.</p>
+            </div>
+            <div class="grid grid--3">
+                <article class="card">
+                    <h3>UX- & UI-Design</h3>
+                    <p>Informationsarchitektur, Wireframes und ein Designsystem, das Ihre Marke konsistent abbildet.</p>
+                </article>
+                <article class="card">
+                    <h3>Entwicklung</h3>
+                    <p>Sauberes, responsives HTML/CSS mit performanter Umsetzung und technischer Suchmaschinenbasis.</p>
+                </article>
+                <article class="card">
+                    <h3>Conversion-Fokus</h3>
+                    <p>Gezielte Call-to-Actions, überzeugende Textbausteine und Tracking-Setups für messbare Ergebnisse.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section section--muted">
+        <div class="container">
+            <div class="section__header">
+                <p class="eyebrow">Referenzen</p>
+                <h2>Ausgewählte Projekte.</h2>
+                <p class="lede">Platzhalter-Beispiele, die zeigen, wie wir Marken digital positionieren.</p>
+            </div>
+            <div class="grid grid--3">
+                <article class="card card--image">
+                    <div class="card__badge">Relaunch</div>
+                    <h3>KUNDEN_NAME – SaaS</h3>
+                    <p>Landingpage mit klarer Storyline, Pricing-Sektion und UI-Komponenten für Demos.</p>
+                </article>
+                <article class="card card--image">
+                    <div class="card__badge">Onepager</div>
+                    <h3>KUNDEN_NAME – Beratung</h3>
+                    <p>Leistungsübersicht, Teamvorstellung und Terminbuchung direkt über CTA.</p>
+                </article>
+                <article class="card card--image">
+                    <div class="card__badge">Campaign</div>
+                    <h3>KUNDEN_NAME – Event</h3>
+                    <p>Conversion-optimierte Microsite mit knappen Inhalten und Social Proof.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="section">
+        <div class="container">
+            <div class="section__header">
+                <p class="eyebrow">Ablauf</p>
+                <h2>Strukturiert, transparent und zügig.</h2>
+                <p class="lede">Kurze Entscheidungswege, regelmäßige Abstimmungen und klare Deliverables halten Ihr Projekt auf Kurs.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__step">01</div>
+                    <div>
+                        <h3>Kick-off & Ziele</h3>
+                        <p>Workshop zu Zielgruppe, Value Proposition und Erfolgskriterien.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__step">02</div>
+                    <div>
+                        <h3>Konzept & Text</h3>
+                        <p>Struktur, Wording und Storyline passend zu Ihrem Angebot.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__step">03</div>
+                    <div>
+                        <h3>Design & Prototyp</h3>
+                        <p>Visuelles Design mit klickbarem Prototyp zur frühen Abstimmung.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__step">04</div>
+                    <div>
+                        <h3>Entwicklung & Launch</h3>
+                        <p>Sauberer Code, Tests und begleitete Veröffentlichung.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--accent">
+        <div class="container cta">
+            <div>
+                <p class="eyebrow">Bereit?</p>
+                <h2>Wir planen Ihren neuen Auftritt.</h2>
+                <p class="lede">Schreiben Sie uns Ihr Projektziel – wir melden uns innerhalb von 24 Stunden.</p>
+            </div>
+            <a class="btn btn--inverted" href="#contact">Projekt anfragen</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contact">
+            <div>
+                <p class="eyebrow">Kontakt</p>
+                <h2>Erstgespräch vereinbaren</h2>
+                <p class="lede">Kurzes Formular – wir melden uns mit Terminvorschlägen.</p>
+                <ul class="contact__meta">
+                    <li><strong>E-Mail:</strong> <a href="mailto:info@agentur-domain.tld">info@agentur-domain.tld</a></li>
+                    <li><strong>Telefon:</strong> +49 (0)123 456789</li>
+                    <li><strong>Standort:</strong> STADT_NAME</li>
+                </ul>
+            </div>
+            <form class="form" aria-label="Kontaktformular">
+                <label>
+                    Ihr Name
+                    <input type="text" name="name" placeholder="Vor- und Nachname" required>
+                </label>
+                <label>
+                    E-Mail
+                    <input type="email" name="email" placeholder="info@agentur-domain.tld" required>
+                </label>
+                <label>
+                    Projektbeschreibung
+                    <textarea name="message" rows="4" placeholder="Was soll erreicht werden?" required></textarea>
+                </label>
+                <div class="form__row">
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        <span>Ich stimme der Verarbeitung meiner Daten gemäß Datenschutz zu.</span>
+                    </label>
+                    <button type="submit" class="btn">Absenden</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__content">
+        <div>
+            <div class="logo">AGENTUR_NAME</div>
+            <p>Webdesign & Digital Experiences</p>
+        </div>
+        <div class="footer__links">
+            <a href="#services">Leistungen</a>
+            <a href="#portfolio">Referenzen</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+        <div class="footer__legal">
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
